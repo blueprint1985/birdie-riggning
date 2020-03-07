@@ -37,7 +37,7 @@ class App extends React.Component<BaseProps, BaseState> {
 
     const task: TaskModel = {
       id: 0,
-      day_id: 0,
+      parentId: null,
       name: 'Test',
       description: 'Test task',
       responsible: user,
